@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_auth: ^4.3.0
+  firebase_core: ^2.8.0
+  google_sign_in: ^5.2.1
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -57,6 +61,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/background.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -88,3 +94,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+
