@@ -29,16 +29,14 @@ class LoginScreen extends StatelessWidget {
           // Background Image
           Container(
             decoration: BoxDecoration(
-              image: DecorationImage(
-                image:
-                    AssetImage('assets/background.png'), // Add your image path
-                fit: BoxFit.cover,
-              ),
+              color: Colors.black.withOpacity(0.5), // Adds transparent overlay
             ),
-            child: Container(
-              decoration: BoxDecoration(
-                color:
-                    Colors.black.withOpacity(0.5), // Adds transparent overlay
+            child: Center(
+              child: SizedBox(
+                width: 900, // Set the desired width
+                height: 900, // Set the desired height
+                child:
+                    Image.asset('assets/background.png'), // Add your image path
               ),
             ),
           ),
